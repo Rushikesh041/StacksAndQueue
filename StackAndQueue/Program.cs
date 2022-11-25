@@ -9,6 +9,13 @@
             stack.Push(30);
             stack.Push(56);
             stack.Display();
+            stack.Peak();
+            stack.Pop();
+            stack.Peak();
+            stack.Pop();
+            stack.Peak();
+            stack.Pop();
+            stack.Display();
         }
     }
 }
